@@ -4,7 +4,7 @@
 $(window).scroll(function() {
     var scrollTop = $(this).scrollTop();
     console.log(scrollTop);
-    if(scrollTop>=1200&&scrollTop<=2500){
+    if(scrollTop>=1000&&scrollTop<=2500){
         $("#zhu1").addClass("zhu1_mv");
         $("#zhu2").addClass("zhu2_mv");
         $("#zhu3").addClass("zhu3_mv");
@@ -16,7 +16,7 @@ $(window).scroll(function() {
         $("#c3_top_p4").addClass("c3_top_p4_mv");
         $("#up_line").addClass("up_line_mv");
 
-    } else if(scrollTop<1200){
+    } else if(scrollTop<1000){
         $("#zhu1").removeClass("zhu1_mv");
         $("#zhu2").removeClass("zhu2_mv");
         $("#zhu3").removeClass("zhu3_mv");
@@ -30,21 +30,21 @@ $(window).scroll(function() {
         $("#up_line").removeClass("up_line_mv");
     }
 
-    if(scrollTop>=3200&&scrollTop<=3900){
+    if(scrollTop>=2600&&scrollTop<=3900){
 
         $("#suo_body").addClass("suo_allthing");
         $(".blue").addClass("blue_mv");
         $(".green").addClass("green_mv");
         $(".orange").addClass("orange_mv");
 
-    } else if(scrollTop<3200){
+    } else if(scrollTop<2600){
         $("#suo_body").removeClass("suo_allthing");
         $(".blue").removeClass("blue_mv");
         $(".green").removeClass("green_mv");
         $(".orange").removeClass("orange_mv");
     }
     //.in_c_show,.out_c_show,.number_show{
-    if(scrollTop>=1900&&scrollTop<=2500){
+    if(scrollTop>=1625&&scrollTop<=2500){
 
         $(".in_c").addClass("in_c_show");
         $(".out_c").addClass("out_c_show");
@@ -63,8 +63,6 @@ $(window).scroll(function() {
         $(".gou4").addClass("gou4_show");
         $(".gou5").addClass("gou5_show");
         $(".dagou").addClass("clean_over_show");
-
-
 
     } else if(scrollTop<1900){
         $(".in_c").removeClass("in_c_show");
