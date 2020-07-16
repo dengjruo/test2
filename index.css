@@ -346,7 +346,7 @@ a:hover {
 }
 
 .container2_right{
-    width: 1700px;
+    width: 2270px;
     height:300px;
     position: absolute;
     left:360px;
@@ -372,9 +372,17 @@ a:hover {
     border-radius:4px;
     float: left;
     margin-left: 22px;
+    position: relative;
 }
 
+.container2_bakstyle{
 
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+
+}
 #container3{
     height:900px ;
     border: 1px solid transparent;
@@ -409,8 +417,8 @@ a:hover {
 }
 
 .container3_bottom_left_img{
-    width:564px;
-    height:224px;
+    width:560px;
+    height:180px;
     /*background:linear-gradient(0deg,rgba(67,234,128,1),rgba(56,248,212,1));*/
     background: url("images/上升线背景.png") no-repeat;
     background-size: cover;
@@ -419,7 +427,7 @@ a:hover {
 
 
 .zhu1{
-    height: 220px;
+    height: 180px;
     position:absolute;
     top:0;
     left:57px;
@@ -427,7 +435,7 @@ a:hover {
 }
 
 .zhu2{
-    height: 220px;
+    height: 180px;
     position:absolute;
     top:0;
     left:198px;
@@ -435,7 +443,7 @@ a:hover {
 }
 
 .zhu3{
-    height: 220px;
+    height: 180px;
     position:absolute;
     top:0;
     left:347px;
@@ -443,7 +451,7 @@ a:hover {
 }
 
 .zhu4{
-    height: 220px;
+    height: 180px;
     position:absolute;
     top:0;
     left:481px;
@@ -454,8 +462,8 @@ a:hover {
     position: relative;
     z-index: 2;
     display: inline-block;
-    height: 185px;
-    width: 564px;
+    height: 180px;
+    width: 560px;
     background: url("images/绿色上升线.png") no-repeat;
     background-size: cover;
     background-position: 0 0;
@@ -745,6 +753,7 @@ a:hover {
     /* 控制行内字符的旋转 */
     text-orientation: upright;
     text-align: center;
+
 }
 
 .shi{
@@ -755,6 +764,7 @@ a:hover {
     /* 控制行内字符的旋转 */
     text-orientation: upright;
     text-align: center;
+
 }
 .ge{
     width: 40px !important;
@@ -764,6 +774,7 @@ a:hover {
     /* 控制行内字符的旋转 */
     text-orientation: upright;
     text-align: center;
+
 }
 
 .baifenhao{
@@ -776,13 +787,13 @@ a:hover {
 
 
 
-.clean_list1,.clean_list2{
+.clean_list1{
     position: absolute;
     top:135px;
     left: 205px;
     z-index: 6;
-    height: 290px;
-
+    height: 300px;
+    overflow: hidden;
 }
 
 .clean_list1 li{
@@ -791,15 +802,18 @@ a:hover {
     height: 16px;
     font-size: 14px;
     margin-top: 12px;
+    font-family:Prompt;
+    font-weight:bold;
+    line-height: 18px;
 }
 
-.clean_list2 li{
-    width: 60px;
-    text-align: center;
-    height: 16px;
-    font-size: 14px;
-    margin-top: 12px;
-}
+/*.clean_list2 li{*/
+    /*width: 60px;*/
+    /*text-align: center;*/
+    /*height: 16px;*/
+    /*font-size: 14px;*/
+    /*margin-top: 12px;*/
+/*}*/
 
 .clean_dian{
     color:orange;
@@ -832,8 +846,8 @@ a:hover {
     background-repeat: no-repeat, no-repeat;
     background-position: center center,70px 10px;
     position: absolute;
-    left:0;
-    right:0;
+    left:-100px;
+    top:0;
 
 }
 
@@ -851,13 +865,13 @@ a:hover {
 
 
 .suo_outc{
-    width: 207px;
-    height: 207px;
-    background: url("images/btn_scan_hover.png")no-repeat;
+    width: 248px;
+    height: 248px;
+    background: url("images/锁光圈.png")no-repeat;
     background-size: contain;
     position: absolute;
-    left: 244px;
-    top:142px;
+    left: 230px;
+    top:120px;
 }
 
 .container5_right{
@@ -872,8 +886,8 @@ a:hover {
     background: url("images/锁白圈.png")no-repeat;
     background-size: contain;
     position: absolute;
-    left: 65px;
-    top:-29px;
+    left: 72px;
+    top:-34px;
 }
 
 .suo_body{
@@ -994,9 +1008,286 @@ a:hover {
 .container6_table{
     width: 1120px;
     height: 712px;
-    background: url("images/对比表%20.png") no-repeat;
-    background-size: contain;
+    /*background: url("images/对比表%20.png") no-repeat;*/
+    /*background-size: contain;*/
     margin-top: 25px;
+}
+
+
+.container6_left_table{
+    width:630px;
+    height: 595px;
+    position: absolute;
+    left:0;
+    top:206px;
+    border-top:1px solid rgba(215,214,239,1)
+}
+
+.container6_left_table li{
+    /*border-top:1px solid rgba(255,255,255,0.5) ;*/
+    border-bottom:1px solid rgba(215,214,239,1) ;
+}
+
+
+.container6_left_table_txt{
+    width:630px;
+    height: 35px;
+    font-size:14px;
+    font-family:Prompt;
+    font-weight:400;
+    color:rgba(43,42,68,1);
+    line-height:36px;
+
+}
+
+.container6_left_table_last{
+    width:630px;
+    height: 60px;
+    position: relative;
+    padding-bottom: 26px;
+}
+.container6_left_bottom_img{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("images/IObit_Money_Back_icon_size72_SV.png")no-repeat;
+    background-size:contain ;
+    position: absolute;
+    left: -3px;
+    top: 15px;
+}
+
+.container6_left_bottom_p1{
+     width:511px;
+     height:28px;
+     font-size:12px;
+     font-family:Prompt;
+     font-weight:bold;
+     color:rgba(43,42,68,1);
+     line-height:16px;
+    position: absolute;
+    left: 72px;
+    top: 32px;
+ }
+
+.container6_left_bottom_p2{
+    width:515px;
+    height:28px;
+    font-size:12px;
+    font-family:Prompt;
+    color:rgba(43,42,68,1);
+    line-height:16px;
+    position: absolute;
+    left: 71px;
+    top: 47px;
+}
+
+
+.container6_middle_table{
+    width:220px;
+    height: 595px;
+    position: absolute;
+    right:266px;
+    top:206px;
+    border-top:1px solid rgba(215,214,239,1);
+}
+
+.container6_middle_table li{
+    width:220px;
+    height: 35px;
+    border-top:1px solid rgba(215,214,239,1);
+    background:rgba(215,214,239,0.5) ;
+}
+
+.container6_middle_table_gou{
+    display: inline-block;
+    width: 17px;
+    height: 14px;
+    background: url("images/huigou.png")no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    margin-left: 105px;
+}
+
+.container6_middle_table_jian{
+    font-size:12px;
+    font-family:Prompt;
+    font-weight: bold;
+    color:rgba(182,180,203,1);
+    text-align: center;
+    line-height: 36px;
+}
+
+.container6_middle_lasttable{
+    height: 86px !important;
+}
+
+.container6_middle_lasttable_button{
+    width:190px;
+    height:36px;
+    background:linear-gradient(90deg,rgba(193,253,201,1),rgba(144,249,196,1),rgba(87,245,161,1));
+    border:1px solid rgba(82, 255, 163, 1);
+    border-radius:4px;
+    font-size:16px;
+    font-family:Prompt;
+    font-weight:bold;
+    color:rgba(11,183,92,1);
+    text-align: center;
+    line-height: 36px;
+    margin-top: 25px;
+    margin-left: 14px;
+}
+
+
+
+.container6_right_table{
+    width:260px;
+    height: 595px;
+    position: absolute;
+    right:0px;
+    top:206px;
+    border-top:1px solid rgba(215,214,239,1);
+}
+
+.container6_right_table li{
+    width:260px;
+    height: 35px;
+    border-top:1px solid rgba(215,214,239,1);
+    background:rgba(215,214,239,0.5) ;
+}
+
+
+.container6_right_table_gou{
+    display: inline-block;
+    width: 17px;
+    height: 14px;
+    background: url("images/langou.png")no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    margin-left: 122px;
+}
+
+.container6_right_lasttable{
+    height: 86px !important;
+
+}
+
+.container6_right_lasttable_button{
+    width:190px;
+    height:36px;
+    background:linear-gradient(90deg,rgba(255,188,82,1),rgba(255,111,54,1));
+    border:1px solid rgba(255, 184, 118, 1);
+    border-radius:4px;
+    margin-top: 25px;
+    margin-left: 36px;
+
+    font-family:Prompt;
+    font-weight:bold;
+
+    color:rgba(255,255,255,1);
+    line-height:36px;
+    text-align: center;
+}
+
+
+.button_span1{
+    font-size:16px;
+}
+
+.button_span2{
+    font-size:14px;
+}
+
+.button_span3{
+    font-size:12px;
+    text-decoration:line-through;
+}
+
+.under_button_txt{
+    width:65px;
+    height:11px;
+    font-size:12px;
+    font-family:Prompt;
+    font-weight:400;
+    color:rgba(43,42,68,1);
+    line-height:16px;
+    margin-top: 4px;
+    margin-left: 105px;
+}
+
+.container6_middle_top{
+    width:221px;
+    height:100px;
+    background:rgba(107,106,132,1);
+    border-radius:15px 15px 0px 0px;
+    position: absolute;
+    top:106px;
+    right: 266px;
+}
+.middle_top_title{
+    width:155px;
+    height:27px;
+    font-size:14px;
+    font-family:Prompt;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.middle_top_button{
+    width:124px;
+    height:23px;
+    background:rgba(182,182,204,1);
+    border-radius:4px;
+    font-size:12px;
+    font-family:Prompt;
+    font-weight:400;
+    color:rgba(59,58,89,1);
+    text-align: center;
+    margin: auto;
+    margin-top: 27px;
+    line-height: 22px;
+}
+
+
+.container6_right_top{
+    width:259px;
+    height:120px;
+    background:rgba(33,120,255,1);
+    border-radius:15px 15px 0px 0px;
+    position: absolute;
+    top:86px;
+    right:0;
+}
+
+.right_top_title{
+    width:203px;
+    height:35px;
+    font-size:18px;
+    font-family:Prompt;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.right_top_button{
+    width:84px;
+    height:23px;
+    background:rgba(255,72,72,1);
+    border-radius:4px;
+    font-size:18px;
+    font-family:Prompt;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    line-height: 22px;
 }
 
 #container7{
@@ -1036,7 +1327,7 @@ a:hover {
 }
 
 .container7_title_li1{
-    width:50px;
+    width:60px;
     height:10px;
     font-size:14px;
     font-family:Prompt;
@@ -1045,7 +1336,7 @@ a:hover {
     margin-top: 15px;
 }
 .container7_title_li2 {
-    width: 50px;
+    width: 5px;
     height: 17px;
     font-size: 22px;
     font-family: Prompt;
@@ -1064,6 +1355,18 @@ a:hover {
     line-height:24px;
     margin-top: 44px;
 }
+
+
+.comment2{
+    visibility: hidden;
+}
+.comment3{
+    visibility: hidden;
+}
+.comment4{
+    visibility: hidden;
+}
+
 
 .container7_right{
     width:994px;
@@ -1165,7 +1468,7 @@ a:hover {
 
 
 /*内容1动画*/
-.container1_img_contentc1{
+.container1_img_contentc1,.suo_inc{
     animation: rotate 4s linear infinite;
 }
 
@@ -1179,7 +1482,7 @@ a:hover {
     }
 }
 
-.container1_img_contentc2{
+.container1_img_contentc2,.suo_outc{
     animation: rotate-bc 4s linear infinite;
 }
 
@@ -1233,40 +1536,8 @@ a:hover {
 }
 
 
-.container2_bakstyle{
-    position: absolute;
-    top:0;
-    left:0;
-    z-index: 1;
-}
-
-
-.container2_img1 {
-    animation: roll1 5s linear infinite;
-}
-
-@keyframes roll1 {
-    0% {
-        transform:scale(1);
-
-    }
-
-    25% {
-        transform:scale(1.1);
-    }
-
-    50% {
-        transform:scale(1);
-    }
-
-    100% {
-        transform:scale(1);
-    }
-}
-
-
 .txt_color1{
-    animation: change_color1 5s linear infinite;
+    animation: change_color1 8s linear infinite;
 }
 
 @keyframes change_color1 {
@@ -1290,7 +1561,8 @@ a:hover {
 
 
 .container2_back1 {
-    animation: show_hide1 5s linear infinite;
+    opacity: 1;
+    animation: show_hide1 8s linear infinite;
 }
 
 @keyframes show_hide1 {
@@ -1312,37 +1584,8 @@ a:hover {
     }
 }
 
-
-.container2_img2 {
-    animation: roll2 5s linear infinite;
-}
-
-@keyframes roll2 {
-    0% {
-        transform:scale(1);
-    }
-
-    25% {
-        transform:scale(1);
-
-    }
-
-    50% {
-        transform:scale(1.1);
-    }
-
-    75% {
-        transform:scale(1);
-    }
-
-    100% {
-        transform:scale(1);
-    }
-}
-
-
 .container2_back2 {
-    animation: show_hide2 5s linear infinite;
+    animation: show_hide2 8s linear infinite;
 }
 
 @keyframes show_hide2 {
@@ -1370,7 +1613,7 @@ a:hover {
 
 .txt_color2{
 
-    animation: change_color2 5s linear infinite;
+    animation: change_color2 8s linear infinite;
 }
 
 @keyframes change_color2 {
@@ -1398,37 +1641,9 @@ a:hover {
 
 
 
-.container2_img3 {
-    animation: roll3 5s linear infinite;
-
-}
-
-@keyframes roll3 {
-    0% {
-        transform:scale(1);
-    }
-
-    25% {
-        transform:scale(1);
-    }
-
-    51% {
-        transform:scale(1);
-    }
-
-
-    75% {
-        transform:scale(1.1);
-    }
-
-
-    100% {
-        transform:scale(1);
-    }
-}
 
 .container2_back3 {
-    animation: show_hide3 5s linear infinite;
+    animation: show_hide3 8s linear infinite;
 }
 
 @keyframes show_hide3 {
@@ -1457,7 +1672,7 @@ a:hover {
 
 .txt_color3{
 
-    animation: change_color3 5s linear infinite;
+    animation: change_color3 8s linear infinite;
 }
 
 @keyframes change_color3 {
@@ -1484,7 +1699,7 @@ a:hover {
 }
 
 .container2_img4 {
-    animation: roll4 5s linear infinite;
+    animation: roll4 8s linear infinite;
 
 }
 
@@ -1507,12 +1722,12 @@ a:hover {
     }
 
     100% {
-        transform:scale(1.1);
+        transform:scale(1);
     }
 }
 
 .container2_back4 {
-    animation: show_hide4 5s linear infinite;
+    animation: show_hide4 8s linear infinite;
 }
 
 @keyframes show_hide4 {
@@ -1543,7 +1758,7 @@ a:hover {
 
 .txt_color4{
 
-    animation: change_color4 5s linear infinite;
+    animation: change_color4 8s linear infinite;
 }
 
 @keyframes change_color4 {
@@ -1570,37 +1785,45 @@ a:hover {
 
 
 .container2_imgbox{
-    animation: move 5s linear infinite;
+    animation: move 8s linear infinite;
 }
-
 
 @keyframes move {
     0% {
         left:0;
     }
 
-    25% {
+    20%{
         left:0;
+    }
+
+    25% {
+         left:-330px;
+     }
+
+    45% {
+        left:-330px;
     }
 
     50% {
-        left:0;
+        left:-660px;
     }
 
 
+    55% {
+        left:-660px;
+    }
 
     70% {
-        left:0;
+        left:-660px;
     }
 
-    74% {
-        left:-160px;
+    75% {
+        left:-980px;
     }
-
-
 
     100% {
-        left:-160px;
+        left:-980px;
     }
 }
 
@@ -1621,7 +1844,7 @@ a:hover {
 }
 
 .roll1{
-    animation: change_width1 5s linear infinite;
+    animation: change_width1 8s linear infinite;
 }
 
 @keyframes change_width1 {
@@ -1648,7 +1871,7 @@ a:hover {
 }
 
 .roll2{
-    animation: change_width2 5s linear infinite;
+    animation: change_width2 8s linear infinite;
 }
 
 @keyframes change_width2 {
@@ -1675,7 +1898,7 @@ a:hover {
 }
 
 .roll3{
-    animation: change_width3 5s linear infinite;
+    animation: change_width3 8s linear infinite;
 }
 
 @keyframes change_width3 {
@@ -1697,7 +1920,7 @@ a:hover {
 }
 
 .roll4{
-    animation: change_width4 5s linear infinite;
+    animation: change_width4 8s linear infinite;
 }
 
 @keyframes change_width4 {
@@ -1724,11 +1947,11 @@ a:hover {
 @keyframes growup1 {
     0% {
         height: 0;
-        top:220px;
+        top:180px;
     }
 
     20%,100% {
-        height: 220px;
+        height: 180px;
         top:0;
     }
 
@@ -1743,12 +1966,12 @@ a:hover {
 @keyframes growup2 {
     0%,20% {
         height: 0;
-        top: 220px;
+        top:180px;
     }
 
 
     40%,100%{
-        height: 220px;
+        height: 180px;
         top: 0;
     }
 
@@ -1762,12 +1985,12 @@ a:hover {
 @keyframes growup3 {
     0%,40% {
         height: 0;
-        top: 220px;
+        top:180px;
     }
 
 
     60%,100%{
-        height: 220px;
+        height: 180px;
         top: 0;
     }
 
@@ -1782,11 +2005,11 @@ a:hover {
 @keyframes growup4 {
     0%,60% {
         height: 0;
-        top: 220px;
+        top:180px;
     }
 
     80%,100%{
-        height: 220px;
+        height: 180px;
         top: 0;
     }
 
@@ -1863,15 +2086,18 @@ a:hover {
 @keyframes up_line_out {
     0%,85% {
         width: 0;
+        height: 180px;
         visibility: hidden;
     }
 
     86%{
+        height: 180px;
         visibility: visible;
     }
 
     100% {
-        width: 564px;
+        width: 560px;
+        height: 180px;
         visibility: visible;
     }
 
@@ -1879,7 +2105,7 @@ a:hover {
 
 /*数字跳动效果*/
 .ge_mv{
-    animation: ge_beat 1s linear infinite;
+    animation: ge_beat 500ms linear infinite;
 
 }
 
@@ -1895,7 +2121,7 @@ a:hover {
 }
 
 .shi_mv{
-     animation: shi_beat 10s linear infinite;
+     animation: shi_beat 5s linear infinite;
 
  }
 
@@ -1911,46 +2137,93 @@ a:hover {
 }
 
 .bai_mv{
-    animation: bai_beat 10s linear infinite;
+    animation: bai_beat 5s linear infinite;
 
 }
+
+/*@keyframes bai_beat {*/
+     /*0% {*/
+         /*margin-top: 0;*/
+     /*}*/
+
+     /*80% {*/
+         /*margin-top: 0;*/
+     /*}*/
+
+     /*100% {*/
+         /*margin-top: -40px;*/
+     /*}*/
+
+ /*}*/
 
 @keyframes bai_beat {
     0% {
-        margin-top: 0;
+        visibility: hidden;
     }
 
-    80% {
-        margin-top: 0;
+    98% {
+        visibility: hidden;
     }
+
 
     100% {
-        margin-top: -40px;
+        visibility: visible;
     }
-
 }
+
 
 
 .clean_list_show{
-    animation: clean_list_sh 20s alternate forwards;
+    animation: clean_list_sh 10s alternate forwards;
 }
 
+/*@keyframes clean_list_sh {*/
+    /*0%,40% {*/
+        /*visibility: hidden;*/
+    /*}*/
+
+    /*41% {*/
+        /*visibility: visible;*/
+    /*}*/
+
+    /*65%{*/
+        /*visibility: hidden;*/
+    /*}*/
+
+    /*100% {*/
+        /*visibility: hidden;*/
+    /*}*/
+
+/*}*/
+
 @keyframes clean_list_sh {
-    0%,40% {
-        visibility: hidden;
+    0%,10% {
+        height: 0;
     }
 
-    41% {
+    21% {
+        height: 100px;
+    }
+
+    35%{
+        height: 200px;
+    }
+
+    50% {
+        height: 300px;
+    }
+
+    60%,67%{
+        opacity: 1;
         visibility: visible;
     }
 
-    65%{
+    68%,100%{
         visibility: hidden;
+        opacity: 0;
+
     }
 
-    100% {
-        visibility: hidden;
-    }
 
 }
 
@@ -1959,16 +2232,18 @@ a:hover {
 /*当计时器100%的时候*/
 
 .in_c_show,.out_c_show,.number_show{
-    animation: time_to_hiden 10s alternate forwards;
+    animation: time_to_hiden 5s alternate forwards;
 }
 
 @keyframes time_to_hiden {
     0%, 98% {
         visibility: visible;
+        opacity: 1;
     }
 
     100% {
         visibility: hidden;
+        opacity: 0;
     }
 
 }
@@ -1977,15 +2252,190 @@ a:hover {
 .doclean{
     width: 376px;
     height: 228px;
-    background: url("images/清理中间模块.png");
-    background-size: contain;
+    /*background: url("images/清理中间模块.png");*/
+    /*background-size: contain;*/
     position:absolute;
     top: 100px;
     left:285px;
     z-index: 6;
-    /*opacity: 0;*/
+    /*visibility: hidden;*/
+}
+.doclean_shuazi{
+    width: 375px;
+    height: 65px;
+    background: rgba(41,44,80,1);
+    /*background: rgba(255,255,255,0.5);*/
+    position: relative;
+}
+.shuaziing{
+    display: block;
+    width: 58px;
+    height: 57px;
+    background: url("images/清扫刷子.png")no-repeat;
+    background-size: contain;
+    position: absolute;
+    left:17px;
+    top:5px;
+}
+
+.shuazi_before_clean,.shuazi_after_clean{
+    color: rgb(248,181,81);
+    font-size:12px;
+    font-family:Prompt;
+    font-weight:bold;
+    line-height:24px;
+    position: absolute;
+    top:14px;
+    left:96px;
+}
+
+.shuazi_after_clean{
+ visibility: hidden;
+}
+
+.shuazi_jindu_default{
+    display: block;
+    width: 235px;
+    height: 8px;
+    background: rgb(52,56,99);
+    border-radius: 48px ;
+    position: absolute;
+    bottom: 15px;
+    left: 95px;
+    z-index: 1;
+}
+
+.shuazi_jindu_over{
+    display: block;
+    width: 235px;
+    height: 8px;
+    background:rgb(248,181,81) ;
+    border-radius: 48px ;
+    position: absolute;
+    bottom: 15px;
+    left: 95px;
+    z-index: 2;
+}
+
+
+.doclean_huojian{
+    width: 375px;
+    height: 65px;
+    background: rgba(41,44,80,1);
+    /*background: rgba(255,255,255,0.5);*/
+    position: relative;
+    margin-top: 15px;
+}
+.huojian{
+    display: block;
+    width: 58px;
+    height: 57px;
+    background: url("images/清扫火箭.png")no-repeat;
+    background-size: contain;
+    position: absolute;
+    left:17px;
+    top:5px;
+}
+
+.huojian_before_clean,.huojian_after_clean{
+    color: rgb(248,181,81);
+    font-size:12px;
+    font-family:Prompt;
+    font-weight:bold;
+    line-height:24px;
+    position: absolute;
+    top:14px;
+    left:96px;
+}
+
+.huojian_after_clean{
     visibility: hidden;
 }
+
+.huojian_jindu_default{
+    display: block;
+    width: 235px;
+    height: 8px;
+    background: rgb(52,56,99);
+    border-radius: 48px ;
+    position: absolute;
+    bottom: 15px;
+    left: 95px;
+    z-index: 1;
+}
+
+.huojian_jindu_over{
+    display: block;
+    width: 235px;
+    height: 8px;
+    background:rgb(248,181,81) ;
+    border-radius: 48px ;
+    position: absolute;
+    bottom: 15px;
+    left: 95px;
+    z-index: 2;
+}
+
+
+
+.doclean_dun{
+    width: 375px;
+    height: 65px;
+    background: rgba(41,44,80,1);
+    /*background: rgba(255,255,255,0.5);*/
+    position: relative;
+    margin-top: 15px;
+}
+.dun{
+    display: block;
+    width: 58px;
+    height: 57px;
+    background: url("images/清扫盾.png")no-repeat;
+    background-size: contain;
+    position: absolute;
+    left:17px;
+    top:5px;
+}
+
+.dun_before_clean,.dun_after_clean{
+    color: rgb(248,181,81);
+    font-size:12px;
+    font-family:Prompt;
+    font-weight:bold;
+    line-height:24px;
+    position: absolute;
+    top:14px;
+    left:96px;
+}
+
+.dun_after_clean{
+    visibility: hidden;
+}
+
+.huojian_jindu_default{
+    display: block;
+    width: 235px;
+    height: 8px;
+    background: rgb(52,56,99);
+    border-radius: 48px ;
+    position: absolute;
+    bottom: 15px;
+    left: 95px;
+    z-index: 1;
+}
+
+.dun_jindu_over{
+    display: block;
+    width: 235px;
+    height: 8px;
+    background:rgb(248,181,81) ;
+    border-radius: 48px ;
+    position: absolute;
+    bottom: 15px;
+    left: 95px;
+    z-index: 2;
+}
+
 
 .clean_tools{
     width: 208px;
@@ -2001,7 +2451,7 @@ a:hover {
 }
 
 .doclean_show,.tools_show{
-    animation: doclean_to_show 20s alternate forwards;
+    animation: doclean_to_show 10s alternate forwards;
 }
 
 @keyframes doclean_to_show {
@@ -2024,7 +2474,7 @@ a:hover {
 }
 
 .tools_mv{
-    animation: tools_to_mv 20s alternate forwards;
+    animation: tools_to_mv 10s alternate forwards;
 }
 
 @keyframes tools_to_mv {
@@ -2058,63 +2508,86 @@ a:hover {
 }
 
 
-/*.clean_over{*/
-    /*animation: gou_to_show 20s alternate forwards;*/
-/*}*/
+/*刷子刷的时候进度条变化*/
 
-/*@keyframes gou_to_show {*/
-    /*0%, 50% {*/
 
-        /*width: 0 !important;*/
-        /*height: 0 !important;*/
-        /*opacity: 0;*/
-        /*margin-top: 0!important;*/
-    /*}*/
 
-    /*51%{*/
-        /*height: 100% !important;*/
-        /*width: 100% !important;*/
-        /*opacity: 1;*/
-        /*margin-top: 12px !important;*/
-    /*}*/
+/*刷子处理的时候文字也跟着变化*/
 
-    /*100% {*/
+.before_clean_mv{
+    animation: before_clean_mv 10s alternate forwards;
+}
 
-        /*visibility: visible;*/
-    /*}*/
+@keyframes before_clean_mv {
+    0%,50% {
+        visibility: hidden;
+    }
 
-/*}*/
+    51%,59%{
+        visibility: visible;
+    }
 
-/*.clean_li1,.clean_li2,.clean_li4,.clean_li9,.clean_li11{*/
-    /*animation: litxt_to_show 20s alternate forwards;*/
-/*}*/
+    60%{
+        visibility: hidden;
+    }
 
-/*@keyframes litxt_to_show {*/
-    /*0%{*/
-        /*width: 100% !important;*/
-        /*height: 100% !important;*/
-        /*opacity: 1;*/
-    /*}*/
+    100% {
+        visibility: hidden;
+    }
 
-    /*50% {*/
-        /*width: 100% !important;*/
-        /*height: 100% !important;*/
-        /*opacity: 1;*/
-    /*}*/
+}
 
-    /*51%{*/
-        /*width: 0 !important;*/
-        /*height: 0 !important;*/
-        /*!*opacity: 0;*!*/
-        /*!*visibility: hidden;*!*/
-        /*margin-top: 0!important;*/
-    /*}*/
+.after_clean_mv{
+    animation: after_clean_mv 10s alternate forwards;
+}
 
-    /*100% {*/
+@keyframes after_clean_mv {
+    0%,60% {
+        visibility: hidden;
+    }
 
-        /*visibility: hidden;*/
-    /*}*/
-/*}*/
+    61%,65%{
+        visibility: visible;
+    }
+
+    66%{
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+
+}
+
+
+
+.clean_over{
+    animation: gou_to_show 10s alternate forwards;
+}
+
+@keyframes gou_to_show {
+    0%, 50% {
+
+        width: 0 !important;
+        height: 0 !important;
+        opacity: 0;
+        margin-top: 0!important;
+    }
+
+    51%{
+        height: 100% !important;
+        width: 100% !important;
+        opacity: 1;
+        margin-top: 12px !important;
+    }
+
+    100% {
+
+        visibility: visible;
+    }
+
+}
 
 
 .xiaogou{
@@ -2154,7 +2627,7 @@ a:hover {
 /*勾遮挡*/
 
 .gou1_show{
-animation: gou1_to_show 20s alternate forwards;
+animation: gou1_to_show 10s alternate forwards;
 }
 
 @keyframes gou1_to_show {
@@ -2175,7 +2648,7 @@ animation: gou1_to_show 20s alternate forwards;
 }
 
 .gou2_show{
-    animation: gou2_to_show 20s alternate forwards;
+    animation: gou2_to_show 10s alternate forwards;
 }
 
 @keyframes gou2_to_show {
@@ -2196,7 +2669,7 @@ animation: gou1_to_show 20s alternate forwards;
 }
 
 .gou3_show{
-    animation: gou3_to_show 20s alternate forwards;
+    animation: gou3_to_show 10s alternate forwards;
 }
 
 @keyframes gou3_to_show {
@@ -2217,7 +2690,7 @@ animation: gou1_to_show 20s alternate forwards;
 }
 
 .gou4_show{
-    animation: gou4_to_show 20s alternate forwards;
+    animation: gou4_to_show 10s alternate forwards;
 }
 
 @keyframes gou4_to_show {
@@ -2238,7 +2711,7 @@ animation: gou1_to_show 20s alternate forwards;
 }
 
 .gou5_show{
-    animation: gou5_to_show 20s alternate forwards;
+    animation: gou5_to_show 10s alternate forwards;
 }
 
 @keyframes gou5_to_show {
@@ -2259,20 +2732,20 @@ animation: gou1_to_show 20s alternate forwards;
 }
 
 
-/*.clean_all_over{*/
-    /*animation: clean_all_to_hiden 20s alternate forwards;*/
-/*}*/
+.clean_all_over{
+    animation: clean_all_to_hiden 10s alternate forwards;
+}
 
-/*@keyframes clean_all_to_hiden {*/
-    /**/
-    /*65%{*/
-        /*visibility: visible;*/
-    /*}*/
+@keyframes clean_all_to_hiden {
 
-    /*100% {*/
-        /*visibility: visible;*/
-    /*}*/
-/*}*/
+    65%{
+        visibility: visible;
+    }
+
+    100% {
+        visibility: visible;
+    }
+}
 
 /*列表隐藏和大勾图片显示*/
 
@@ -2289,7 +2762,7 @@ animation: gou1_to_show 20s alternate forwards;
 }
 
 .clean_over_show{
-    animation: dagou_to_show 20s alternate forwards;
+    animation: dagou_to_show 10s alternate forwards;
 }
 
 @keyframes dagou_to_show {
@@ -2308,32 +2781,36 @@ animation: gou1_to_show 20s alternate forwards;
 
 }
 
-/*.clean_list_clean_over_hiden{*/
-    /*animation: cleanover_to_hiden 20s alternate forwards;*/
-/*}*/
+.clean_list_clean_over_hiden{
+    animation: cleanover_to_hiden 10s alternate forwards;
+}
 
-/*@keyframes cleanover_to_hiden {*/
-    /*0% {*/
-        /*visibility: hidden;*/
-    /*}*/
+@keyframes cleanover_to_hiden {
+    0% {
+        visibility: hidden;
+    }
 
-    /*20%{*/
-        /*visibility: visible;*/
-    /*}*/
+    20%{
+        visibility: visible;
+    }
 
-    /*66%{*/
-        /*visibility: hidden;*/
-    /*}*/
+    66%{
+        visibility: hidden;
+    }
 
-    /*100% {*/
-        /*visibility: hidden;*/
-    /*}*/
+    100% {
+        visibility: hidden;
+    }
 
-/*}*/
+}
 
 /*锁的变大及位移*/
+
+/*光圈转动*/
+
+
 .suo_allthing{
-    animation: things_big 6s alternate forwards;
+    animation: things_big 4s alternate forwards;
 }
 
 @keyframes things_big {
@@ -2341,6 +2818,11 @@ animation: gou1_to_show 20s alternate forwards;
         transform: scale(0);
         visibility: visible;
     }
+    15%,20% {
+        transform: scale(1);
+        visibility: visible;
+    }
+
     100% {
         transform: scale(1);
         visibility: visible;
@@ -2349,11 +2831,11 @@ animation: gou1_to_show 20s alternate forwards;
 }
 
 .blue_mv{
-    animation: blue_mv 6s alternate forwards;
+    animation: blue_mv 4s alternate forwards;
 }
 
 @keyframes blue_mv {
-    0%{
+    0%,20%{
         visibility: visible;
         transform: scale(0);
         position: absolute;
@@ -2361,6 +2843,14 @@ animation: gou1_to_show 20s alternate forwards;
         top:210px
     }
 
+
+    21%,60% {
+        visibility: visible;
+        transform: scale(1);
+        position: absolute;
+        left: 185px;
+        top:92px;
+    }
 
     100% {
         visibility: visible;
@@ -2373,17 +2863,27 @@ animation: gou1_to_show 20s alternate forwards;
 }
 
 .green_mv{
-    animation: green_mv 6s alternate forwards;
+    animation: green_mv 4s alternate forwards;
 }
 
 @keyframes green_mv {
-    0%{
+    0%,40%{
         visibility: visible;
         transform: scale(0);
         position: absolute;
         left: 255px;
         bottom:125px
     }
+
+
+    41%,80% {
+        visibility: visible;
+        transform: scale(1);
+        position: absolute;
+        left: 90px;
+        bottom:-50px;
+    }
+
 
     100% {
         visibility: visible;
@@ -2396,11 +2896,11 @@ animation: gou1_to_show 20s alternate forwards;
 }
 
 .orange_mv{
-    animation: orange_mv 6s alternate forwards;
+    animation: orange_mv 4s alternate forwards;
 }
 
 @keyframes orange_mv {
-    0%{
+    0%,60%{
         visibility: visible;
         transform: scale(0);
         position: absolute;
@@ -2408,7 +2908,7 @@ animation: gou1_to_show 20s alternate forwards;
         bottom:160px
     }
 
-    100% {
+    61%,100% {
         visibility: visible;
         transform: scale(1);
         position: absolute;
@@ -2416,5 +2916,43 @@ animation: gou1_to_show 20s alternate forwards;
         bottom:80px;
     }
 
+}
+
+
+/*模块7评论特效*/
+
+.comment_fly{
+    animation: comment_fly 2s alternate forwards;
+}
+
+@keyframes comment_fly {
+    0% {
+        transform:  scale(1) rotateZ(0deg); /*从0度开始*/
+        visibility: visible;
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0) rotateZ(-720deg); /*360度结束*/
+
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+.comment_com{
+    animation: comment_com 1s alternate forwards;
+}
+
+@keyframes comment_com {
+    0% {
+        /*transform:  scale(0); !*从0度开始*!*/
+        visibility: hidden;
+        opacity: 0;
+    }
+    100% {
+        /*transform: scale(1); !*360度结束*!*/
+        visibility: visible;
+        opacity: 1;
+    }
 }
 

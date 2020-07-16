@@ -64,6 +64,13 @@ $(window).scroll(function() {
         $(".gou5").addClass("gou5_show");
         $(".dagou").addClass("clean_over_show");
 
+        $(".shuazi_before_clean").addClass("before_clean_mv");
+        $(".huojian_before_clean").addClass("before_clean_mv");
+        $(".dun_before_clean").addClass("before_clean_mv");
+        $(".shuazi_after_clean").addClass("after_clean_mv");
+        $(".huojian_after_clean").addClass("after_clean_mv");
+        $(".dun_after_clean").addClass("after_clean_mv");
+
     } else if(scrollTop<1900){
         $(".in_c").removeClass("in_c_show");
         $(".out_c").removeClass("out_c_show");
@@ -81,10 +88,69 @@ $(window).scroll(function() {
         $(".gou4").removeClass("gou4_show");
         $(".gou5").removeClass("gou5_show");
         $(".dagou").removeClass("clean_over_show");
+
+        $(".shuazi_before_clean").removeClass("before_clean_mv");
+        $(".huojian_before_clean").removeClass("before_clean_mv");
+        $(".dun_before_clean").removeClass("before_clean_mv");
+        $(".shuazi_after_clean").removeClass("after_clean_mv");
+        $(".huojian_after_clean").removeClass("after_clean_mv");
+        $(".dun_after_clean").removeClass("after_clean_mv");
     }
 })
 
 
+
+$(".container7_right_play").click(function(){
+    console.log(111111);
+    if($(".comment1").hasClass('comment_fly')){
+        console.log(666)
+
+
+    }else{
+        $(".comment1").addClass("comment_fly").removeClass("comment_com");
+        $(".comment2").addClass("comment_com");
+
+        return;
+    }
+
+
+    if($(".comment2").hasClass('comment_com')){
+        $(".comment2").removeClass("comment_com").addClass("comment_fly");
+        $(".comment3").addClass("comment_com");
+        $(".comment1").removeClass("comment_com");
+        return;
+
+    }
+
+    if($(".comment3").hasClass('comment_com')){
+        $(".comment3").removeClass("comment_com").addClass("comment_fly");
+        //$(".comment2").addClass("comment_fly");
+        $(".comment4").addClass("comment_com").removeClass("comment_fly");
+        //$(".comment1").removeClass("comment_fly");
+        return;
+
+    }
+
+
+    if($(".comment4").hasClass('comment_com')){
+        $(".comment4").removeClass("comment_com").addClass("comment_fly");
+        //$(".comment2").addClass("comment_fly");
+        $(".comment1").addClass("comment_com").removeClass("comment_fly");
+        $(".comment2").removeClass("comment_fly");
+        $(".comment3").removeClass("comment_fly");
+        return;
+
+    }
+
+    //if($(".comment1").hasClass('comment_com')){
+    //    $(".comment1").removeClass("comment_com").addClass("comment_fly");
+    //    $(".comment2").addClass("comment_com");
+    //    $(".comment4").removeClass("comment_fly");
+    //    return;
+    //
+    //}
+
+})
 
 
 
